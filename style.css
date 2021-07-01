@@ -1,1 +1,197 @@
-
+.break{
+    position: relative;
+    background-image: url('images/hr-img.png');
+    width: 900px;
+    height: 15px;
+    top:30px;
+    left:460px;
+    
+    }
+    
+    
+    /*------------------------------ Header------------------------------*/
+    header {
+    display: inline-block;
+    position: relative;
+    left: 460px;
+    
+    }
+    
+    #logo{
+    
+    }
+    
+    #websiteName{
+        display: inline-block;
+        height: 60px;
+    }
+    #websiteName h1{
+        display: inline;
+        font-size: 30px;
+        font-family: 'Great Vibes', cursive;
+        margin: 0px;
+    }
+    header #websiteName p{
+    font-size: 22px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    margin: 0px;
+    }
+    
+    header nav{
+    display: inline-block;
+    position:relative;
+    left: 455px;
+    }
+    
+    #rss, #email{
+        display: inline-block;
+        position:relative;
+        left: 10px;
+    }
+    
+    /*------------------------------ Main ------------------------------*/
+    
+    
+    /*-------------------- articleInfo --------------------*/
+    
+    
+    #articleInfo{
+        display: inline-block;
+        position: relative;
+        left: 460px;
+        top: 40px;
+    }
+    #articleInfo h1{
+        font-family: 'Big Shoulders Stencil Display', cursive;
+        font-weight:800;  
+        margin: 0px;
+    }
+    
+    #articleInfo h4{
+        display: inline-block;
+        font-family: 'Big Shoulders Stencil Display', cursive;
+        font-size: 25px;
+        font-weight: lighter;
+        margin: 0px;
+    }
+    #articleInfo h1{
+    
+    }
+    #articleInfo h6{
+        display: inline-block;
+        font-family: 'Big Shoulders Stencil Display', cursive;
+        font-weight: lighter;
+        font-size: 13px;
+    }
+    
+    #articleInfo img{
+        display: inline-block;
+        position: relative;
+        margin-left: 677px;
+    }
+    
+    /*-------------------- articlePicutre --------------------*/
+    
+    #articlePicutre{
+        display: inline-block;
+        position: relative;
+        left: 460px;
+        top: 25px;
+    }
+    
+    /*-------------------- paragraphs --------------------*/
+    
+    #paragraphs {
+        display: block;
+        position: relative;
+        top: 25px;
+        left: 460px;
+        width: 900px;
+    
+    }
+    
+    
+    #paragraphs p {
+        text-align: justify;
+        font-size: 22px; 
+        
+    }
+    
+    
+    /*------------------------- recipe -------------------------*/
+    
+    #recipe{
+        position: relative;
+        z-index: 5;
+    }
+    #recipeBackground{
+    display: inline-block;
+    position: relative;
+    left: 460px;
+    top: 25px;
+    }
+    
+    #recipeCheckList1{
+    position: absolute;
+    left: 560px;
+    bottom: 30px;
+    font-size: 24px;
+    }
+    
+    #recipeCheckList2{
+        position: absolute;
+        left: 860px;
+        bottom: 30px;
+        
+        font-size: 24px;
+        }
+    /*------------------------- authorInfo -------------------------*/
+    #authorInfo{
+        position: relative;
+    
+        top:50px;
+        left:460px;
+        margin-bottom: 100px;
+    }
+    
+    #authorInfo img{
+    
+    }
+    
+    #authorInfo #data{
+        display: inline-block;
+    }
+    
+    #data h1{
+        display: inline-block;
+        margin: 0px 0px 10px 10px;
+    }
+    
+    #data p{
+        display: block;
+        text-align: justify;
+        width: 640px;
+        font-size: 20px;
+        margin: 0px 0px 10px 10px;
+    }
+    
+    #authorInfo button{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    background-color: #C84B31;
+    top:-20px;
+    left: 20px;
+    }
+    
+    footer div{
+        position: relative;
+        
+        
+    }
+    footer div p{
+        text-align: center;
+        font-size: 18px;
+        margin: 0px;
+    }
