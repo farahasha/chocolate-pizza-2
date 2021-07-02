@@ -17,9 +17,7 @@
     
     }
     
-    #logo{
-    
-    }
+
     
     #websiteName{
         display: inline-block;
@@ -62,7 +60,8 @@
         top: 40px;
     }
     #articleInfo h1{
-        font-family: 'Big Shoulders Stencil Display', cursive;
+        font-family: 'Chango', cursive;
+        font-family: 'Oswald', sans-serif;
         font-weight:800;  
         margin: 0px;
     }
@@ -74,9 +73,7 @@
         font-weight: lighter;
         margin: 0px;
     }
-    #articleInfo h1{
-    
-    }
+  
     #articleInfo h6{
         display: inline-block;
         font-family: 'Big Shoulders Stencil Display', cursive;
@@ -134,16 +131,17 @@
     #recipeCheckList1{
     position: absolute;
     left: 560px;
-    bottom: 30px;
-    font-size: 24px;
+    bottom: 0px;
+    font-size: 22px;
+    font-family: 'Sofadi One', cursive; ;
     }
     
     #recipeCheckList2{
         position: absolute;
         left: 860px;
-        bottom: 30px;
-        
-        font-size: 24px;
+        bottom:0px;
+        font-family: 'Sofadi One', cursive; ;
+        font-size: 22px;
         }
     /*------------------------- authorInfo -------------------------*/
     #authorInfo{
@@ -154,9 +152,7 @@
         margin-bottom: 100px;
     }
     
-    #authorInfo img{
     
-    }
     
     #authorInfo #data{
         display: inline-block;
@@ -180,7 +176,7 @@
     width: 150px;
     height: 40px;
     padding: 10px;
-    background-color: #C84B31;
+    background-color: #d15238;
     top:-20px;
     left: 20px;
     }
@@ -188,10 +184,23 @@
     footer div{
         position: relative;
         
-        
     }
+
+    footer img {
+        position:relative; 
+        left:50%;
+        margin-left:-10px;
+        height: 18px;
+        border:1;
+        display: block;
+        background-size: contain;
+    }
+
+
     footer div p{
         text-align: center;
         font-size: 18px;
         margin: 0px;
+        color:gray;
+        bottom: 20px;
     }
